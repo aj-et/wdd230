@@ -1,3 +1,39 @@
 /* This will apply for bigger screens */
 
-/* @media only screen and (min-width: ) */
+@media only screen and (min-width: 600px) {
+    .header {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center; */
+    }
+
+    .nav-bar {
+        display: block;
+        overflow: auto;
+    }
+
+    .nav-bar a {
+        float: left;
+        width: 25%;
+        text-align: center;
+    }
+
+    .nav-bar a:hover {
+        background-color: bisque;
+    }
+
+    .nav-bar a:first-of-type:hover {
+        background-color: var(--color-3);
+    }
+
+    .sec {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .card a:hover {
+        background-color: skyblue;
+    }
+}
