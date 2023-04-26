@@ -33,4 +33,18 @@
     .card a:hover {
         background-color: skyblue;
     }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .footer p:not(:last-child){
+            display: inline-flex;
+            /* justify-content: center;
+            align-items: center; */
+    }
+
+    #flag-icon {
+        height: 25px;
+    }
 }
