@@ -1,12 +1,9 @@
 /* This will apply for bigger screens */
 
 @media only screen and (min-width: 600px) {
-    .header {
-        /* display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center; */
+
+    .header-image {
+        width: 200px;
     }
 
     .nav-bar {
@@ -30,7 +27,7 @@
 
     .sec {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 3fr 2fr;
     }
 
     .card a:hover {

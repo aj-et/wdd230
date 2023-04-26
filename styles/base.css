@@ -15,7 +15,6 @@
     box-sizing: border-box;
     font-family: var(--font-family);
     color: var(--color-1);
-    /* background-color: var(--color-4); */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -46,6 +45,7 @@ a {
 .header-image {
     width: 100px;
     padding: 5px;
+    border-radius: 25px;
 }
 
 .nav-bar {
@@ -53,6 +53,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: var(--color-3);
+    font-size: 25px;
 }
 
 .nav-bar a:first-of-type {
