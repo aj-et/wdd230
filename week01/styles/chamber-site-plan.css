@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --color-1: #17161A
+    --color-2: #F4F6F4
+    --color-3: #8EA8B3
+    --color-4: #F5CC27
+    --color-5: #B54250
+    --font-family: 'Ubuntu', 'Open Sans', sans-serif;
+}
