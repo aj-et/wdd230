@@ -7,18 +7,22 @@
     --color-1: #181F1C;
     --color-2: #020887;
     --color-3: #ED1C24;
-    --color-4: #5FBB97;
+    --color-4: #079dec;
+    --color-5: #5FBB97;
 
 }
 
 * {
     box-sizing: border-box;
     font-family: var(--font-family);
-    color: var(--color-1);
     text-align: center;
     margin: 0;
     padding: 0;
 }
+
+/* body {
+    background-color: #f0ead6;
+} */
 
 /* This modifies the list */
 li {
@@ -57,7 +61,7 @@ a {
 }
 
 .nav-bar a:first-of-type {
-    background-color: bisque;
+    background-color: var(--color-5);
 }
 
 .footer {
@@ -88,4 +92,35 @@ a {
 
 .main {
     margin-top: 20px;
+}
+
+#mode {
+    display: none;
+}
+
+/* This is the hamburger menu */
+#menu {
+    display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: var(--color-3);
+	/* color: #000; */
+}
+
+#menu::before {
+	content: "≡";
+}
+
+.nav-bar {
+    display: none;
+}
+
+.show {
+	display: flex;
+}
+
+#menu.show::before {
+	content: "X";
 }

@@ -18,7 +18,7 @@
     }
 
     .nav-bar a:hover {
-        background-color: bisque;
+        background-color: var(--color-5);
     }
 
     .nav-bar a:first-of-type:hover {
@@ -46,5 +46,25 @@
 
     #flag-icon {
         height: 25px;
+    }
+
+    /* This will remove hamburger menu on wide screen */
+    #menu {
+        display: none;
+    }
+
+    
+}
+
+@media only screen and (min-width: 800px) {
+    /* This is for the dark mode */
+    #mode {
+        position: absolute;
+        right: 50px;
+        display: block;
+        padding: 5px;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 10px;
     }
 }
