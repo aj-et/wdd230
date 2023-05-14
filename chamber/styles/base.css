@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --color-1: #17161a;
+    --color-2: #f4f6f4;
+    --color-3: #8ea8b3;
+    --color-4: #f5cc27;
+    --color-5: #b54250;
+
+    --font-heading: 'Ubuntu', sans-serif;
+
+
+    --font-paragraph: 'Open Sans', sans-serif;
+
+}
+
+body {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+}
+
+p, a {
+    font-family: var(--font-paragraph);
+}
+
+.header-bar {
+    border: 1px solid black;
+}
+
+.socials img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* This is for navigation */
+.nav-bar {
+    border: 1px solid black;
+    font-size: 24px;
+    display: none; /* This should be removed in larger css */
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-menu { /* This should be set display to none in larger css*/
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .5rem .75rem;
+    /* Put background color */
+}
+
+.nav-menu::before {
+    content: "≡";
+}
+
+.nav-menu.show::before {
+    content: "×";
+}
+
+.show {
+    display: block;
+}
+/* This ends navigation */
+
+.main-bar {
+    border: 1px solid black;
+}
+
+.footer-bar {
+    margin-bottom: 0;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+}
+
+.location-map {
+    width: 1rem;
+}
+
+.footer-chamber {
+    border: 1px solid black;
+}
+
+.footer-chamber div {
+    border: 1px solid black;
+}
