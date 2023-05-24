@@ -65,7 +65,7 @@
 @media only screen and (min-width: 800px) {
     /* This is for the dark mode */
     #mode {
-        position: absolute;
+        /* position: absolute; */
         right: 50px;
         display: block;
         padding: 5px;
