@@ -43,7 +43,7 @@ a {
     background-color: var(--color-4);
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .header-image {
@@ -68,8 +68,8 @@ a {
     border: 1px solid black;
     background-color: var(--color-4);
     margin-bottom: 0;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     width: 100%;
 }
 
@@ -91,7 +91,10 @@ a {
 }
 
 .main {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    position: relative;
+    left: 8%;
+    width: 85%;
 }
 
 #mode {
@@ -123,4 +126,16 @@ a {
 
 #menu.show::before {
 	content: "X";
+}
+
+/* .hero {
+    border: 1px solid black;
+} */
+
+.hero img {
+    width: 98%;
+}
+
+.label {
+    font-weight: 700;
 }

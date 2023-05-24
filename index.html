@@ -18,6 +18,7 @@
     <script src="scripts/getDates.js" defer></script> <!--This will wait until all of HTML has loaded-->
     <script src="scripts/hamburgerMenu.js" defer></script>
     <script src="scripts/darkMode.js" defer></script>
+    <script src="scripts/visitCount.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -33,9 +34,19 @@
         <a href="#">Survey</a>
     </nav>
 
-    <div id="mode" class="dark">Dark Mode</div>
+    <!-- <div id="mode" class="dark">Dark Mode</div> -->
 
+    
     <main class="main">
+        <div class="hero">
+            <picture>
+                <!-- <source srcset="images/500-hero-manila-temple.webp" media="(max-width: 500px)"> -->
+                <!-- <source srcset="images/1000-hero-manila-temple.webp" media="(max-width: 1000px)"> -->
+                <img src="images/1000-hero-manila-temple.webp" alt="favorite temple">
+                <!-- <span>Philippines Manila Temple</span> -->
+            </picture>
+        </div>
+
         <h2>WDD 230: Web Frontend Development</h2>
         <div class="sec">
             <section class="card">
@@ -55,8 +66,11 @@
                 <h3>Information</h3>
                 <div>
                     <!-- Information placeholders about the weather, number of visits to the page, etc -->
+                    <p>Temperature</p>
+                    <p><span class="label">Visit Count: </span><span class="visits"></span></p>
                 </div>
             </section>
+            <iframe class="google-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10675508.818026146!2d117.67000511557585!3d13.998076113219764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b1a29d205ea3%3A0x7b3770b63530e916!2sAlecon%20Homes!5e0!3m2!1sen!2sus!4v1684899596920!5m2!1sen!2sus" width="295" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
 
