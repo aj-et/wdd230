@@ -9,4 +9,19 @@
     .nav-menu {
         display: none;
     }
+
+    .main-bar-discover{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .side-bar-content-1, .side-bar-content-2, .side-bar-content-3 {
+        margin: 10px;
+        border: 1px solid black;
+    }
+
+    .main-content {
+        border: 1px solid black;
+        margin: 10px 10px 10px 0;
+    }
 }
