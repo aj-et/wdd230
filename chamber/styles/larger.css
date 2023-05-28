@@ -24,4 +24,14 @@
         border: 1px solid black;
         margin: 10px 10px 10px 0;
     }
+
+    .main-content-images {
+        padding: 10px 10px 0 10px;
+    }
+
+    .main-content-images img {
+        padding-bottom: 10px;
+        max-width: 100%;
+        display: block;
+    }
 }
