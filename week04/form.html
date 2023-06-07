@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Aaron Tumbokon">
+    <meta property="og:type" content="course assignment portal"> 
+    <meta property="og:title" content="Web Frontend Development"> 
+    <meta property="og:image" content="https://github.com/aj-et/wdd230/blob/master/images/OGimg.png?raw=true"> 
+    <meta property="og:url" content="https://aj-et.github.io/wdd230/"> 
+    <title>Aaron Tumbokon - WDD 230 - Web Frontend Development</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico?">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/larger.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <script src="../scripts/confirmPass.js" defer></script>
+    <script src="../scripts/form-submit.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <img class="header-image" src="../images/my_image.jpeg" alt="My Picture">
+        <h1>Aaron Tumbokon</h1>
+    </header>
+
+    <a href="#" id="menu"></a> <!-- This will display the hamburger icon -->
+    <nav class="nav-bar">
+        <a href="../index.html">Home</a>
+        <a href="../chamber/index.html">Chamber</a>
+        <a href="../week01/chamber-site-plan.html">Site Plan</a>
+        <a href="#">Survey</a>
+    </nav>
+
+    <!-- <div id="mode" class="dark">Dark Mode</div> -->
+
+    
+    <main class="main">
+        <div id="formmessage"></div>
+
+        <form id="theForm" method="get">
+            <label for="username" class="req">Username</label>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            
+            <label for="password" class="req">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            
+            <label for="confirm-password" class="req">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
+            
+            <label for="email" class="req">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label>Page Rating</label>
+            <div class="stars">
+                <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+            </div>
+            
+            
+            <button id="btnSubmit" type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>&copy;<span id="currentYear"></span></p>
+        <p>Aaron Tumbokon</p>
+        <p>Philippines <img id="flag-icon" src="../images/philippines.png" alt="Philippine Flag"></p>
+        <p id="lastModified">Last Modification: <span id="modLast"></span></p>
+    </footer>
+    
+</body>
+</html>
