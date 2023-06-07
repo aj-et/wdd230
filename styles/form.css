@@ -61,31 +61,27 @@ input[type="radio"] {
 	caret-color: rgba(0, 0, 0, 0);
 }
 
-.stars {
+#rangevalue {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
 }
 
-.stars > label {
-	color: gold;
-	width: 30px;
-	height: 30px;
-	font-size: 2rem;
-	margin-left: 5px;
+#rangevalue-container {
+    display: flex;
+    justify-content: center;
+}
+
+#rangevalues {
 	display: flex;
-	align-items: center;
-	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+    justify-content: center;
+    width: 60%;
+    
+	/* margin: 0 0 0 100px; */
+	/* width: 50%; */
+    /* text-align: center; */
 }
 
-.stars > label:hover {
-	color: #000;
-}
-
-.stars > label::before {
-	content: "\2606";
-}
-
-.stars input:checked ~ label::before {
-	content: "\2605";
+#rangevalues option {
+	flex: 1 1 auto;
 }
