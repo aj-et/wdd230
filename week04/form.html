@@ -37,33 +37,34 @@
 
     
     <main class="main">
-        <div id="formmessage"></div>
 
-        <form id="theForm" method="get">
-            <label for="username" class="req">Username</label>
-            <input type="text" id="username" name="username" placeholder="Username" required>
-            
-            <label for="password" class="req">Password</label>
-            <input type="password" id="password" name="password" placeholder="Password" required>
-            
-            <label for="confirm-password" class="req">Confirm Password</label>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
-            
-            <label for="email" class="req">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email" required>
+        <div id="form-container">
+            <form id="theForm" method="get">
+                <label for="username" class="req">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password" class="req">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm-password" class="req">Confirm Password</label><div id="formmessage"></div>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                
+                <label for="email" class="req">Email</label>
+                <input type="email" id="email" name="email" required>
 
-            <label>Page Rating</label>
-            <div class="stars">
-                <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
-                <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
-                <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
-                <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
-                <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
-            </div>
-            
-            
-            <button id="btnSubmit" type="submit">Submit</button>
-        </form>
+                <label>Page Rating</label>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+                
+                
+                <button id="btnSubmit" type="submit">Submit</button>
+            </form>
+        </div>
     </main>
 
     <footer class="footer">

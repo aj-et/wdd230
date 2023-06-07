@@ -6,7 +6,7 @@ pass2.addEventListener('focusout', checkPass);
 
 function checkPass() {
     if (pass1.value !== pass2.value) {
-        message.textContent = 'Password does not match!';
+        message.innerHTML = 'Password does not match!';
         message.style.visibility = 'show';
         pass2.style.backgroundColor = '#fff0f3';
         pass2.value = '';

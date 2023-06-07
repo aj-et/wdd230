@@ -6,10 +6,52 @@
     --color-5: #5FBB97;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#form-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 1px solid var(--color-5); */
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+#theForm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    background-color: var(--color-5);
+    border-radius: 15px;
+}
+
+.stars {
+    padding-bottom: 30px;
+}
+
+input, button {
+    margin: auto;
+    justify-items: center;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 500px;
+}
+
 #formmessage {
+    
+    /* padding-top: 20px; */
 	visibility: none;
-	margin: 10px;
-	padding: 0.5rem;
+	/* margin: 10px; */
+	/* padding: 0.5rem; */
 	color: red;
 }
 
@@ -22,7 +64,7 @@ input[type="radio"] {
 .stars {
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: left;
+	justify-content: center;
 }
 
 .stars > label {
