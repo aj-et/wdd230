@@ -96,3 +96,41 @@ p, a {
 .footer-chamber div {
     border: 1px solid black;
 }
+
+.main-bar {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.child {
+    display: inline-block;
+    text-align: center;
+}
+
+.child:first-child {
+    width: 100%;
+}
+
+.child:not(:first-child) {
+    flex: 1;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.the-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
