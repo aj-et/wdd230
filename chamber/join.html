@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber Home Page">
+    <meta name="author" content="Aaron Tumbokon">
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="Chamber of Commerce"> 
+    <meta property="og:image" content="https://github.com/aj-et/wdd230/blob/master/images/OGimg.png?raw=true"> 
+    <meta property="og:url" content="https://aj-et.github.io/wdd230/">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <title>Chamber of Commerce</title>
+    <script src="scripts/year-and-last-mod.js" defer></script>
+    <script src="scripts/mobile-menu.js" defer></script>
+    <script src="scripts/getTimeStamp.js" defer></script>
+</head>
+<body>
+    <h1>Aaron's Chamber of Commerce</h1>
+
+    <div class="socials">
+        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+        <!-- <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a> -->
+        <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a> -->
+    </div>
+
+    <div class="nav-menu"></div>
+    <nav class="nav-bar">
+        <a href="#">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+    </nav>
+
+    <main class="main-bar">
+        <h1 class="child">Membership Application Form</h1>
+
+        <!-- Membership level benefits -->
+        <div class="benefits child">
+            <h2>Membership Level Benefits</h2>
+            <p>NP Membership: No fee.</p>
+            <p>Bronze Membership: Benefits include training.</p>
+            <p>Silver Membership: Benefits include training and event discounts.</p>
+            <p>Gold Membership: Benefits include all benefits plus a spotlight position in the home page.</p>
+        </div>
+
+        <!-- Application Form -->
+        <div class="form-container child">
+            <div class="form">
+                <form class="the-form" action="thankyou.html" method="get">
+                    <label for="first-name">Applicant's First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    
+                    <label for="last-name">Applicant's Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    
+                    <label for="position">Applicant's Title/Position:</label>
+                    <input type="text" id="position" name="position" pattern="[A-Za-z\s\-]{7,}" required>
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@example.com">
+                    
+                    <label for="phone">Mobile Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="organization">Business/Organization Name:</label>
+                    <input type="text" id="organization" name="organization" required>
+                    
+                    <label for="membership-level">Membership Level:</label>
+                    <select id="membership-level" name="membership-level">
+                        <option value="NP Membership">NP Membership (No Fee)</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                    
+                    <label for="description">Business/Organization Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                    
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+                    
+                    <input class="button" type="submit" value="Submit">
+                </form> 
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-bar">
+        <div class="footer-chamber">
+            <div>
+                <img src="#" alt="add chamber icon">
+                <h4>Aaron's Chamber of Commerce</h4>
+                <p>Rexburg Idaho</p>
+                </div>
+            <p>info@aaroncc.org</p>
+            <p>+(123) 456-7890</p>
+            <p><img class="location-map" src="images/location-pin.png" alt="location"> Location Map</p>
+            <!-- <a href="https://www.flaticon.com/free-icons/location" title="location icons">Location icons created by IconMarketPK - Flaticon</a> -->
+            
+        </div>
+
+        <p>&copy;<span id="currentYear"></span> Aaron's Chamber</p>
+        <p>Aaron Tumbokon</p>
+        <p>WDD230 project</p>
+        <p id="lastModified">Last Modification: <span id="lastModification"></span></p>
+    </footer>
+</body>
+</html>
