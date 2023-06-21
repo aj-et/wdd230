@@ -4,7 +4,7 @@ const linksPath = 'data/links.json'
 
 async function getLinks() {
     try {
-        const response = await fetch(linksURL);
+        const response = await fetch(linksPath);
         const data = await response.json();
         displayLinks(data);
     } catch (error) {
@@ -12,14 +12,19 @@ async function getLinks() {
     }
 }
 
-function displayLinks(weeks) {
+function displayLinks(weks) {
     const linksContainer = document.querySelector('.links-container');
+
+    const weeks = Array.isArray(weks.weeks) ? weks.weeks : [];
+
+    weeks.forEach((week) => {
+    })
 
     weeks.forEach((week) => {
         const weekDiv = document.createElement('div');
         weekDiv.classList.add('week');
 
-        const weekHeader = document.createElement('h2');
+        const weekHeader = document.createElement('h4');
         weekHeader.textContent = week.week;
 
         const linksList = document.createElement('ul');
@@ -27,7 +32,7 @@ function displayLinks(weeks) {
         week.links.forEach((link) => {
             const listItem = document.createElement('li');
             const linkAnchor = document.createElement('a');
-            linkAnchor.href = baseURL + link.url;
+            linkAnchor.href = link.url;
             linkAnchor.textContent = link.title;
             listItem.appendChild(linkAnchor);
             linksList.appendChild(listItem);

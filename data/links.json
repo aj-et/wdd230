@@ -4,12 +4,12 @@
             "week": "Week 1",
             "links": [
                 {
-                    "url":"/" ,
-                    "title":"Layout"
+                    "url": "#" ,
+                    "title": "Layout"
                 },
                 {
                     "url": "week01/chamber-site-plan.html",
-                    "title": "mQueries"
+                    "title": "Media Queries"
                 }
             ]
         },
@@ -17,12 +17,12 @@
             "week": "Week 2",
             "links": [
                 {
-                    "url":"/" ,
+                    "url":"#" ,
                     "title":"Layout"
                 },
                 {
                     "url": "week02/design.html",
-                    "title": "mQueries"
+                    "title": "Media Queries"
                 }
             ]
         },
@@ -30,12 +30,12 @@
             "week": "Week 4",
             "links": [
                 {
-                    "url":"/" ,
+                    "url":"#" ,
                     "title":"Layout"
                 },
                 {
                     "url": "week04/record.html",
-                    "title": "mQueries"
+                    "title": "Media Queries"
                 }
             ]
         }
