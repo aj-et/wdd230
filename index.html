@@ -19,6 +19,7 @@
     <script src="scripts/hamburgerMenu.js" defer></script>
     <script src="scripts/darkMode.js" defer></script>
     <script src="scripts/visitCount.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -66,7 +67,13 @@
                 <h3>Information</h3>
                 <div>
                     <!-- Information placeholders about the weather, number of visits to the page, etc -->
-                    <p>Temperature</p>
+                    <div class="weather-container">
+                        <p>The current temperature in Rexburg, Idaho is <span class="current-temp"></span></p>
+                        <figure>
+                            <img class="weather-icon" src="" alt="Weather Icon">
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
                     <p><span class="label">Visit Count: </span><span class="visits"></span></p>
                 </div>
             </section>
