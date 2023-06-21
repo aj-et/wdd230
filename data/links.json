@@ -4,12 +4,12 @@
             "week": "Week 1",
             "links": [
                 {
-                    "url":"" ,
-                    "title":""
+                    "url":"/" ,
+                    "title":"Layout"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "mQueries"
                 }
             ]
         },
@@ -17,25 +17,12 @@
             "week": "Week 2",
             "links": [
                 {
-                    "url":"" ,
-                    "title":""
+                    "url":"/" ,
+                    "title":"Layout"
                 },
                 {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 3",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "week02/design.html",
+                    "title": "mQueries"
                 }
             ]
         },
@@ -43,116 +30,12 @@
             "week": "Week 4",
             "links": [
                 {
-                    "url":"" ,
-                    "title":""
+                    "url":"/" ,
+                    "title":"Layout"
                 },
                 {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 5",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 6",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 7",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 8",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 9",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 10",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 11",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                }
-            ]
-        },
-        {
-            "week": "Week 12",
-            "links": [
-                {
-                    "url":"" ,
-                    "title":""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "week04/record.html",
+                    "title": "mQueries"
                 }
             ]
         }
