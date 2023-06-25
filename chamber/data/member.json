@@ -8,6 +8,7 @@
                     "address": "Rexburg",
                     "phoneNumber": "1234567890",
                     "websiteURL": "https://google.com",
+                    "imageFile": "./images/sample1.png",
                     "imageName": "Image 1",
                     "membershipLevel": "Free"
                 }
@@ -21,7 +22,8 @@
                     "address": "Rexburg",
                     "phoneNumber": "1234567890",
                     "websiteURL": "https://google.com",
-                    "imageName": "Image 1",
+                    "imageFile": "./images/sample2.png",
+                    "imageName": "Image 2",
                     "membershipLevel": "Free"
                 }
             ]
@@ -34,7 +36,8 @@
                     "address": "Rexburg",
                     "phoneNumber": "1234567890",
                     "websiteURL": "https://google.com",
-                    "imageName": "Image 1",
+                    "imageFile": "./images/sample3.png",
+                    "imageName": "Image 3",
                     "membershipLevel": "Free"
                 }
             ]
@@ -47,7 +50,8 @@
                     "address": "Rexburg",
                     "phoneNumber": "1234567890",
                     "websiteURL": "https://google.com",
-                    "imageName": "Image 1",
+                    "imageFile": "./images/sample4.png",
+                    "imageName": "Image 4",
                     "membershipLevel": "Free"
                 }
             ]
@@ -60,7 +64,8 @@
                     "address": "Rexburg",
                     "phoneNumber": "1234567890",
                     "websiteURL": "https://google.com",
-                    "imageName": "Image 1",
+                    "imageFile": "./images/sample5.png",
+                    "imageName": "Image 5",
                     "membershipLevel": "Free"
                 }
             ]
@@ -73,7 +78,8 @@
                     "address": "Rexburg",
                     "phoneNumber": "1234567890",
                     "websiteURL": "https://google.com",
-                    "imageName": "Image 1",
+                    "imageFile": "./images/sample6.png",
+                    "imageName": "Image 6",
                     "membershipLevel": "Free"
                 }
             ]
@@ -86,7 +92,8 @@
                     "address": "Rexburg",
                     "phoneNumber": "1234567890",
                     "websiteURL": "https://hash-brown.dev",
-                    "imageName": "Image 1",
+                    "imageFile": "./images/sample8.png",
+                    "imageName": "Image 8",
                     "membershipLevel": "Gold Membership"
                 }
             ]

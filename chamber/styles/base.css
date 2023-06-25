@@ -171,6 +171,11 @@ p, a {
     padding: 10px;
 }
 
+.company-card img {
+    max-width: 100%;
+    border-radius: 30px;
+}
+
 .view-buttons button {
     padding: 1rem;
 	font-weight: 700;

@@ -52,11 +52,13 @@ function renderView() {
 
             company.members.forEach(function(member) {
                 var memberDiv = document.createElement("div");
-                memberDiv.innerHTML = "<p>Name: " + member.name + "</p>" +
+
+                memberDiv.innerHTML = "<img src='" + member.imageFile + "' alt='" + member.imageName + "'>" +
+                                    "<p>Name: " + member.name + "</p>" +
                                     "<p>Address: " + member.address + "</p>" +
                                     "<p>Phone Number: " + member.phoneNumber + "</p>" +
                                     "<p>Website: <a href='" + member.websiteURL + "'>" + member.websiteURL + "</a></p>" +
-                                    "<p>Image Name: " + member.imageName + "</p>" +
+                                    // "<p>Image Name: " + member.imageName + "</p>" +
                                     "<p>Membership Level: " + member.membershipLevel + "</p>";
                 companyDiv.appendChild(memberDiv);
             });
