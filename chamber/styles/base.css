@@ -163,6 +163,7 @@ p, a {
 
 .company-card {
     /* width: 26vw; */
+    width: 100%;
     margin: 5px;
     border: black 1px solid;
     border-radius: 10px;
