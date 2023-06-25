@@ -75,7 +75,7 @@ p, a {
 /* This ends navigation */
 
 .main-bar {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .footer-bar {
@@ -168,7 +168,7 @@ p, a {
     border: black 1px solid;
     border-radius: 10px;
     text-align: left;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .view-buttons button {
