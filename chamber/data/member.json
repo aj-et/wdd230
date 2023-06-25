@@ -1,0 +1,95 @@
+{
+    "companies": [
+        {
+            "company": "Company 1",
+            "members": [
+                {
+                    "name": "John Doe",
+                    "address": "Rexburg",
+                    "phoneNumber": "1234567890",
+                    "websiteURL": "https://google.com",
+                    "imageName": "Image 1",
+                    "membershipLevel": "Free"
+                }
+            ]
+        },
+        {
+            "company": "Company 2",
+            "members": [
+                {
+                    "name": "Johan Doe",
+                    "address": "Rexburg",
+                    "phoneNumber": "1234567890",
+                    "websiteURL": "https://google.com",
+                    "imageName": "Image 1",
+                    "membershipLevel": "Free"
+                }
+            ]
+        },
+        {
+            "company": "Company 3",
+            "members": [
+                {
+                    "name": "John Do",
+                    "address": "Rexburg",
+                    "phoneNumber": "1234567890",
+                    "websiteURL": "https://google.com",
+                    "imageName": "Image 1",
+                    "membershipLevel": "Free"
+                }
+            ]
+        },
+        {
+            "company": "Company 4",
+            "members": [
+                {
+                    "name": "Johan Do",
+                    "address": "Rexburg",
+                    "phoneNumber": "1234567890",
+                    "websiteURL": "https://google.com",
+                    "imageName": "Image 1",
+                    "membershipLevel": "Free"
+                }
+            ]
+        },
+        {
+            "company": "Company 5",
+            "members": [
+                {
+                    "name": "John Dont",
+                    "address": "Rexburg",
+                    "phoneNumber": "1234567890",
+                    "websiteURL": "https://google.com",
+                    "imageName": "Image 1",
+                    "membershipLevel": "Free"
+                }
+            ]
+        },
+        {
+            "company": "Company 6",
+            "members": [
+                {
+                    "name": "Johan Dont",
+                    "address": "Rexburg",
+                    "phoneNumber": "1234567890",
+                    "websiteURL": "https://google.com",
+                    "imageName": "Image 1",
+                    "membershipLevel": "Free"
+                }
+            ]
+        },
+        {
+            "company": "Brigham Young University - Idaho",
+            "members": [
+                {
+                    "name": "Aaron Tumbokon",
+                    "address": "Rexburg",
+                    "phoneNumber": "1234567890",
+                    "websiteURL": "https://hash-brown.dev",
+                    "imageName": "Image 1",
+                    "membershipLevel": "Gold Membership"
+                }
+            ]
+        }
+    ]
+}

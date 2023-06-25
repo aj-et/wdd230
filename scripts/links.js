@@ -18,9 +18,6 @@ function displayLinks(weks) {
     const weeks = Array.isArray(weks.weeks) ? weks.weeks : [];
 
     weeks.forEach((week) => {
-    })
-
-    weeks.forEach((week) => {
         const weekDiv = document.createElement('div');
         weekDiv.classList.add('week');
 

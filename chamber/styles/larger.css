@@ -138,6 +138,25 @@
         margin-bottom: 20px;
     }
 
+    .links-container {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .company-card {
+        width: 26vw;
+    }
+
+    .view-buttons {
+        display: block;
+        margin: 1rem auto;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        background-color: #bed;
+        text-align: center;
+        width: 100%;
+    }
 
 
     /* Effects used: https://www.sliderrevolution.com/resources/css-hover-effects/ */

@@ -17,6 +17,7 @@
     <title>Chamber of Commerce</title>
     <script src="scripts/year-and-last-mod.js" defer></script>
     <script src="scripts/mobile-menu.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
     
 </head>
 <body>
@@ -35,23 +36,17 @@
     <nav class="nav-bar">
         <a href="./">Home</a>
         <a href="discover.html">Discover</a>
-        <a href="directory.html">Directory</a>
+        <a href="#">Directory</a>
         <a href="join.html">Join</a>
     </nav>
 
     <main class="main-bar">
-        <p>This is the main part of body</p>
-        <img src="#" alt="Hero Image">
-        <a href="#">Join the Chamber</a>
-        <div class="section-current-events">
-            <p>Current Events Section</p>
+        <div class="view-buttons">
+            <button class="gridBtn" class="active">⏹️Grid View</button>
+            <button class="listBtn">📄List View</button>
         </div>
-        <div class="section-weather-card">
-            <p>Weather Card Section</p>
-        </div>
-        <div class="section-spotlight-advertisement">
-            <p>Spotlight Advertisement Section</p>
-        </div>
+        
+        <div class="companies"></div>
     </main>
 
     <footer class="footer-bar">
