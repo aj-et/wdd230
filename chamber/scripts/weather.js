@@ -3,8 +3,8 @@ const weatherIcon = document.querySelector('.weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 const APIkey = 'e2cb23d08e69f4d7349c5c0abac192ad';
-const lat = '14.600645466869565'
-const long = '120.98154370645699'
+const lat = '43.826069'
+const long = '-111.789528'
 
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${APIkey}&units=imperial`
 const forecast_url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=${APIkey}`
@@ -43,8 +43,9 @@ function displayForecast(data) {
 
     forecastItems.forEach(item => {
         const date = new Date(item.dt_txt);
-        const temperature = item.main.temp;
+        const temperature = ((item.main.temp - 273.15) * 9/5 + 32).toFixed(2);
         const weatherIcon = item.weather[0].icon;
+        const weatherDescription = item.weather[0].description;
 
         const forecastCard = document.createElement('div');
         forecastCard.classList.add('forecast-card');
@@ -58,9 +59,13 @@ function displayForecast(data) {
         const forecastIcon = document.createElement('img');
         forecastIcon.src = `https://openweathermap.org/img/w/${weatherIcon}.png`;
 
+        const forecastDescription = document.createElement('p');
+        forecastDescription.textContent = weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1);
+
         forecastCard.appendChild(forecastDate);
         forecastCard.appendChild(forecastTemp);
         forecastCard.appendChild(forecastIcon);
+        forecastCard.appendChild(forecastDescription);
 
         forecastContainer.appendChild(forecastCard);
     });
