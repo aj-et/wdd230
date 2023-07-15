@@ -159,21 +159,55 @@ figure {
     color: var(--color-1);
 }
 
-.spotlight {
+.spotlights {
     background-color: var(--color-3);
-    border: 1px solid var(--color-4);
-    width: 100%;
-    margin: 0 5px;
 }
 
-.spotlight h2 {
-    text-align: left;
-    padding-left: 50px;
+.spotlight:first-of-type {
+    margin-top: 10 !important; 
+    margin-left: 15 !important; 
 }
 
-.spotlight .to-right {
-    text-align: right;
-    padding-right: 50px;
+.spotlight:last-of-type {
+    margin-top: 10 !important; 
+    margin-right: 15 !important; 
+}
+
+.spotlight {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+#spotlightContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#spotlightContainer img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+#spotlightContainer a {
+    text-decoration: none;
+}
+
+.forecast-card {
+    border: 1px solid black;
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+.forecast-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.forecast-container img {
+    width: 90px;
 }
 
 .join-btn button {
@@ -209,16 +243,6 @@ figure {
 
 .main-bar-discover img {
     width: 100%;
-}
-
-.section-spotlight-advertisement {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.spotlight {
-    justify-content: center;
 }
 
 .child:first-child {
@@ -284,3 +308,30 @@ figure {
     padding: 1rem;
 	font-weight: 700;
 }
+
+.banner {
+    background-color: var(--color-4);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 36%;
+    width: 100%;
+    z-index: 9999;
+    width: 500px;
+}
+.banner .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .content p {
+    margin: 0;
+}
+.banner .close-btn {
+    cursor: pointer;
+}
+/* CSS styling for the main content */
+.main-content {
+    margin-top: 50px; /* Adjust the margin top value to provide space below the banner */

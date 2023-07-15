@@ -18,6 +18,8 @@
     <script src="scripts/year-and-last-mod.js" defer></script>
     <script src="scripts/mobile-menu.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
     
 </head>
 <body>
@@ -64,6 +66,7 @@
             <div class="weather-container">
                 <h1>Weather</h1>
                 <hr>
+                <h3>Today:</h3>
                 <figure>
                     <img class="weather-icon" src="" alt="Weather Icon">
                     <div class="fig-cont">
@@ -71,39 +74,17 @@
                         <figcaption></figcaption>
                     </div>
                 </figure>
+                <h3>Forecast:</h3>
+                <div class="forecast-container"></div>
             </div>
 
         </div>
-        <div class="section-spotlight-advertisement">
-            <div class="spotlight first">
-                <h2>Thankful Transport</h2>
-                <p class="to-right">"We get it there for you!"</p>
-                <div class="contact-thing">
-                    <p>hello@thankfultransport.com</p>
-                    <p>+999-9999-9999</p>
-                    <a href="#">Website</a>
-                </div>
-            </div>
 
-            <div class="spotlight">
-                <h2>Code Primera</h2>
-                <p class="to-right">After school coding!</p>
-                <div class="contact-thing">
-                    <p>contact@codeprimera.com</p>
-                    <p>+888-8888-8888</p>
-                    <a href="#">Website</a>
-                </div>
-            </div>
+        <div id="bannerContainer"></div>
 
-            <div class="spotlight last">
-                <h2>Build A Treefort</h2>
-                <p class="to-right">Over 1000 Plans!</p>
-                <div class="contact-thing">
-                    <p>builda@treefort.com</p>
-                    <p>+777-7777-7777</p>
-                    <a href="#">Website</a>
-                </div>
-            </div>
+        <div class="spotlights">
+            <h2>Spotlight Advertisements</h2>
+            <div id="spotlightContainer"></div>
         </div>
     </main>
 

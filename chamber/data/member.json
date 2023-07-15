@@ -10,7 +10,7 @@
                     "websiteURL": "https://google.com",
                     "imageFile": "./images/sample1.png",
                     "imageName": "Image 1",
-                    "membershipLevel": "Free"
+                    "membershipLevel": "Silver Membership"
                 }
             ]
         },
@@ -24,7 +24,7 @@
                     "websiteURL": "https://google.com",
                     "imageFile": "./images/sample2.png",
                     "imageName": "Image 2",
-                    "membershipLevel": "Free"
+                    "membershipLevel": "Silver Membership"
                 }
             ]
         },
@@ -38,7 +38,7 @@
                     "websiteURL": "https://google.com",
                     "imageFile": "./images/sample3.png",
                     "imageName": "Image 3",
-                    "membershipLevel": "Free"
+                    "membershipLevel": "Silver Membership"
                 }
             ]
         },
@@ -52,7 +52,7 @@
                     "websiteURL": "https://google.com",
                     "imageFile": "./images/sample4.png",
                     "imageName": "Image 4",
-                    "membershipLevel": "Free"
+                    "membershipLevel": "Silver Membership"
                 }
             ]
         },
@@ -66,7 +66,7 @@
                     "websiteURL": "https://google.com",
                     "imageFile": "./images/sample5.png",
                     "imageName": "Image 5",
-                    "membershipLevel": "Free"
+                    "membershipLevel": "Silver Membership"
                 }
             ]
         },
@@ -80,7 +80,7 @@
                     "websiteURL": "https://google.com",
                     "imageFile": "./images/sample6.png",
                     "imageName": "Image 6",
-                    "membershipLevel": "Free"
+                    "membershipLevel": "Silver Membership"
                 }
             ]
         },
