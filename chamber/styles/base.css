@@ -176,7 +176,20 @@ figure {
     padding-right: 50px;
 }
 
+.join-btn button {
+    background-color: #f5cc27;
+}
+
+.join-btn {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
 .join-but {
+    display: none;
     position: absolute;
     background-color: var(--color-4);
     border: 1px solid var(--color-5);

@@ -59,9 +59,14 @@
         justify-content: space-evenly;
     }
 
+    .join-btn {
+        display: none;
+    }
+
     .join-but {
         top: 225px;
         left: 290px;
+        display: block;
         /* transform: translate(0, -5px); */
     }
 
