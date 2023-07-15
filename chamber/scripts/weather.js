@@ -62,13 +62,22 @@ function displayForecast(data) {
         const forecastDescription = document.createElement('p');
         forecastDescription.textContent = weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1);
 
+        const forecastTime = document.createElement('p');
+        forecastTime.textContent = formatTime(date);
+
         forecastCard.appendChild(forecastDate);
+        forecastCard.appendChild(forecastTime);
         forecastCard.appendChild(forecastTemp);
         forecastCard.appendChild(forecastIcon);
         forecastCard.appendChild(forecastDescription);
 
         forecastContainer.appendChild(forecastCard);
     });
+}
+
+function formatTime(date) {
+    const options = { hour: 'numeric', minute: 'numeric' };
+    return date.toLocaleTimeString('en-US', options);
 }
 
 function formatDate(date) {
