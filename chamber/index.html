@@ -17,61 +17,117 @@
     <title>Chamber of Commerce</title>
     <script src="scripts/year-and-last-mod.js" defer></script>
     <script src="scripts/mobile-menu.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     
 </head>
 <body>
-    <header class="header-bar">
-        <h1>Aaron's Chamber of Commerce</h1>
-    </header>
+    <div class="body">
 
-    <div class="socials">
-        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-        <!-- <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a> -->
-        <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-        <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a> -->
+    <div class="header-sec">
+        <header class="header-bar">
+            <h1>Aaron's Chamber of Commerce</h1>
+        </header>
+
+        <div class="socials">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <!-- <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a> -->
+            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a> -->
+        </div>
+
+        <div class="nav-menu"></div>
+        <nav class="nav-bar">
+            <a href="./">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
     </div>
 
-    <div class="nav-menu"></div>
-    <nav class="nav-bar">
-        <a href="./">Home</a>
-        <a href="discover.html">Discover</a>
-        <a href="directory.html">Directory</a>
-        <a href="join.html">Join</a>
-    </nav>
-
     <main class="main-bar">
-        <p>This is the main part of body</p>
-        <img src="#" alt="Hero Image">
-        <a href="join.html">Join the Chamber</a>
-        <div class="section-current-events">
-            <p>Current Events Section</p>
+        <img src="images/chamber.jpg" alt="Hero Image">
+        <div class="join-but">
+            <a href="join.html">Join the Chamber</a>
         </div>
-        <div class="section-weather-card">
-            <p>Weather Card Section</p>
+
+        <div class="cards">
+            <div class="section-current-events">
+                <h1>Events</h1>
+                <hr>
+                <h2>Ribbon Cutting <small>- The Diamond Shack</small></h2>
+                <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m.</p>
+                <small><a href="#">more info ...</a></small>
+            </div>
+            <div class="weather-container">
+                <h1>Weather</h1>
+                <hr>
+                <figure>
+                    <img class="weather-icon" src="" alt="Weather Icon">
+                    <div class="fig-cont">
+                        <p class="current-temp"></p>
+                        <figcaption></figcaption>
+                    </div>
+                </figure>
+            </div>
+
         </div>
         <div class="section-spotlight-advertisement">
-            <p>Spotlight Advertisement Section</p>
+            <div class="spotlight first">
+                <h2>Thankful Transport</h2>
+                <p class="to-right">"We get it there for you!"</p>
+                <div class="contact-thing">
+                    <p>hello@thankfultransport.com</p>
+                    <p>+999-9999-9999</p>
+                    <a href="#">Website</a>
+                </div>
+            </div>
+
+            <div class="spotlight">
+                <h2>Code Primera</h2>
+                <p class="to-right">After school coding!</p>
+                <div class="contact-thing">
+                    <p>contact@codeprimera.com</p>
+                    <p>+888-8888-8888</p>
+                    <a href="#">Website</a>
+                </div>
+            </div>
+
+            <div class="spotlight last">
+                <h2>Build A Treefort</h2>
+                <p class="to-right">Over 1000 Plans!</p>
+                <div class="contact-thing">
+                    <p>builda@treefort.com</p>
+                    <p>+777-7777-7777</p>
+                    <a href="#">Website</a>
+                </div>
+            </div>
         </div>
     </main>
 
     <footer class="footer-bar">
         <div class="footer-chamber">
-            <div>
-                <img src="#" alt="add chamber icon">
-                <h4>Aaron's Chamber of Commerce</h4>
-                <p>Rexburg Idaho</p>
+            <div class="footer-logo">
+                <img src="images/logo.webp" alt="add chamber icon">
+                <div>
+                    <h4>Aaron's Chamber of Commerce</h4>
+                    <p>Rexburg, Idaho</p>
                 </div>
-            <p>info@aaroncc.org</p>
-            <p>+(123) 456-7890</p>
-            <p><img class="location-map" src="images/location-pin.png" alt="location"> Location Map</p>
-            <!-- <a href="https://www.flaticon.com/free-icons/location" title="location icons">Location icons created by IconMarketPK - Flaticon</a> -->
-            
+            </div>
+            <div class="footer-info">
+                <p>info@aaroncc.org</p>
+                <p>+(123) 456-7890</p>
+                <p><img class="location-map" src="images/location-pin.png" alt="location"> Location Map</p>
+            </div>
         </div>
-
-        <p>&copy;<span id="currentYear"></span> Aaron's Chamber</p>
-        <p>Aaron Tumbokon</p>
-        <p>WDD230 project</p>
-        <p id="lastModified">Last Modification: <span id="lastModification"></span></p>
+            <hr>
+            <div class="footer-more">
+                <p>&copy;<span id="currentYear"></span> Aaron's Chamber</p>
+                <p>Aaron Tumbokon</p>
+                <p>WDD230 project</p>
+                <p id="lastModified">Last Modification: <span id="lastModification"></span></p>
+            </div>
+        
     </footer>
+</div>
 </body>
 </html>

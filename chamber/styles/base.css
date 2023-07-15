@@ -14,11 +14,17 @@
 
 }
 
+.body {
+    margin: auto;
+    width: 100%;
+}
+
 body {
     box-sizing: border-box;
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #E8E4C9;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,8 +35,37 @@ p, a {
     font-family: var(--font-paragraph);
 }
 
-.header-bar {
-    border: 1px solid black;
+.section-current-events {
+    border: 1px solid var(--color-4);
+    background-color: var(--color-3);
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.weather-container .weather-icon {
+    width: 90px;
+}
+
+.weather-container {
+    font-family: var(--font-paragraph);
+    border: 1px solid var(--color-4);
+    background-color: var(--color-3);
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+figure {
+    margin: 0;
+    display: flex;
+}
+
+.header-sec {
+    background-color: var(--color-5);
+    border: 1px solid var(--color-4);
+    padding: 10px;
 }
 
 .socials img {
@@ -40,7 +75,6 @@ p, a {
 
 /* This is for navigation */
 .nav-bar {
-    border: 1px solid black;
     font-size: 24px;
     display: none; /* This should be removed in larger css */
 }
@@ -50,7 +84,6 @@ p, a {
     color: var(--color-1);
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .nav-menu { /* This should be set display to none in larger css*/
@@ -74,27 +107,33 @@ p, a {
 }
 /* This ends navigation */
 
-.main-bar {
+.main-bar img {
     /* border: 1px solid black; */
+    width: 100%;
 }
 
 .footer-bar {
+    padding-top: 20px;
     margin-bottom: 0;
     /* position: fixed; */
     /* bottom: 0; */
+    background-color: var(--color-5);
+    border: 1px solid var(--color-4);
     width: 100%;
+}
+
+.footer-logo img {
+    height: 100px;
+    width: 100px;
 }
 
 .location-map {
     width: 1rem;
 }
 
-.footer-chamber {
-    border: 1px solid black;
-}
-
-.footer-chamber div {
-    border: 1px solid black;
+.footer-bar hr {
+    /* border: 1px solid black; */
+    width: 80%;
 }
 
 .main-bar {
@@ -110,6 +149,63 @@ p, a {
 .child {
     display: inline-block;
     text-align: center;
+}
+
+.contact-thing a {
+    text-decoration: none;
+}
+
+.contact-thing, .contact-thing a {
+    color: var(--color-1);
+}
+
+.spotlight {
+    background-color: var(--color-3);
+    border: 1px solid var(--color-4);
+    width: 100%;
+    margin: 0 5px;
+}
+
+.spotlight h2 {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.spotlight .to-right {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.join-but {
+    position: absolute;
+    background-color: var(--color-4);
+    border: 1px solid var(--color-5);
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    padding-top: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.join-but a {
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+.main-bar-discover img {
+    width: 100%;
+}
+
+.section-spotlight-advertisement {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.spotlight {
+    justify-content: center;
 }
 
 .child:first-child {
@@ -134,11 +230,6 @@ p, a {
 .button {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.weather-container {
-    display: flex;
-    flex-direction: row;
 }
 
 .view-buttons {

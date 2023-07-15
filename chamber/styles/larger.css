@@ -4,10 +4,76 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding-bottom: 10px;
     }
 
     .nav-menu {
         display: none;
+    }
+
+    .body {
+        margin: auto;
+        max-width: 1600px;
+    }
+
+    .section-spotlight-advertisement {
+        margin: 0;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .first { 
+        margin-top: 0 !important; 
+        margin-left: 0 !important; 
+    }
+    
+    .last { 
+        margin-bottom: 0 !important; 
+        margin-right: 0 !important; 
+    }
+
+    .spotlight {
+        transition: transform .2s;
+    }
+
+    .spotlight:hover {
+        transform: scale(1.1);
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .footer-more {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-chamber {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .join-but {
+        top: 225px;
+        left: 290px;
+        /* transform: translate(0, -5px); */
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px 0;
+    }
+
+    .section-current-events {
+        grid-column: 1/3;
+        margin-right: 10px;
     }
 
     .main-bar-discover{
@@ -68,7 +134,8 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     }
 
     .child {
@@ -151,9 +218,9 @@
     .view-buttons {
         display: block;
         margin: 1rem auto;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        /* border: 1px solid rgba(0, 0, 0, 0.1); */
         padding: 0.5rem;
-        background-color: #bed;
+        /* background-color: #bed; */
         text-align: center;
         width: 100%;
     }

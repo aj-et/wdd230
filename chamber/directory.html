@@ -21,52 +21,62 @@
     
 </head>
 <body>
-    <header class="header-bar">
-        <h1>Aaron's Chamber of Commerce</h1>
-    </header>
+    <div class="body">
 
-    <div class="socials">
-        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-        <!-- <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a> -->
-        <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-        <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a> -->
+    <div class="header-sec">
+        <header class="header-bar">
+            <h1>Aaron's Chamber of Commerce</h1>
+        </header>
+
+        <div class="socials">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <!-- <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a> -->
+            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a> -->
+        </div>
+
+        <div class="nav-menu"></div>
+        <nav class="nav-bar">
+            <a href="./">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
     </div>
-
-    <div class="nav-menu"></div>
-    <nav class="nav-bar">
-        <a href="./">Home</a>
-        <a href="discover.html">Discover</a>
-        <a href="#">Directory</a>
-        <a href="join.html">Join</a>
-    </nav>
 
     <main class="main-bar">
         <div class="view-buttons">
             <button class="gridBtn" class="active">⏹️Grid View</button>
             <button class="listBtn">📄List View</button>
         </div>
-        
+                
         <div class="companies"></div>
     </main>
 
     <footer class="footer-bar">
         <div class="footer-chamber">
-            <div>
-                <img src="#" alt="add chamber icon">
-                <h4>Aaron's Chamber of Commerce</h4>
-                <p>Rexburg Idaho</p>
+            <div class="footer-logo">
+                <img src="images/logo.webp" alt="add chamber icon">
+                <div>
+                    <h4>Aaron's Chamber of Commerce</h4>
+                    <p>Rexburg, Idaho</p>
                 </div>
-            <p>info@aaroncc.org</p>
-            <p>+(123) 456-7890</p>
-            <p><img class="location-map" src="images/location-pin.png" alt="location"> Location Map</p>
-            <!-- <a href="https://www.flaticon.com/free-icons/location" title="location icons">Location icons created by IconMarketPK - Flaticon</a> -->
-            
+            </div>
+            <div class="footer-info">
+                <p>info@aaroncc.org</p>
+                <p>+(123) 456-7890</p>
+                <p><img class="location-map" src="images/location-pin.png" alt="location"> Location Map</p>
+            </div>
         </div>
-
-        <p>&copy;<span id="currentYear"></span> Aaron's Chamber</p>
-        <p>Aaron Tumbokon</p>
-        <p>WDD230 project</p>
-        <p id="lastModified">Last Modification: <span id="lastModification"></span></p>
+            <hr>
+            <div class="footer-more">
+                <p>&copy;<span id="currentYear"></span> Aaron's Chamber</p>
+                <p>Aaron Tumbokon</p>
+                <p>WDD230 project</p>
+                <p id="lastModified">Last Modification: <span id="lastModification"></span></p>
+            </div>
+        
     </footer>
+</div>
 </body>
 </html>
